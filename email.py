@@ -4,8 +4,6 @@ This is a script that prompts the user to enter email addresses which adds them 
 a list and prints the list.
 
 """
-import requests
-
 
 #this is a variable named "addresses"
 addresses = []
@@ -36,6 +34,3 @@ while more == "y":
 
 #print "addresses" value
 print(addresses)
-
-response = addresses
-response = requests.post("https://webexapis.com/v1/messages", roomId = "Y2lzY29zcGFyazovL3VzL1JPT00vMjZhMDNlMDAtMTcxNS0xMWViLTk2ZGYtZWY4YWY4YTU5ZmZl")
